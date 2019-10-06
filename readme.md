@@ -8,7 +8,9 @@ Configure [apple sign in](https://developer.apple.com/sign-in-with-apple/get-sta
 Add the following variables in your .env file:
 
 SOCIAL_CLIENTID_APPLE=YOUR_APPLE_CLIENT_ID
+
 SOCIAL_CLIENT_SECRET_APPLE=[Client_secret](https://github.com/aaronpk/sign-in-with-apple-example/blob/master/client-secret.rb) 
+
 SOCIAL_REDIRECT_APPLE=/social-auth/handle/apple/
 
 The following points should be considered in order to use the apple provider in [socialite](https://github.com/laravel/socialite/issues/369):
