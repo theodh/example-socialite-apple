@@ -1,0 +1,58 @@
+/*
+Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.
+        on line 8 of app.scss
+
+3: 
+4: // Variables
+5: @import 'variables';
+6: 
+7: // Bootstrap
+8: @import '~bootstrap/scss/bootstrap';
+
+Backtrace:
+app.scss:8
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/import_node.rb:45:in `import'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/stack.rb:79:in `block in with_base'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/stack.rb:135:in `with_frame'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/stack.rb:79:in `with_base'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/exec/base.rb:52:in `parse'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/lib/sass/exec/base.rb:19:in `parse!'
+/Users/theo/.rvm/gems/ruby-2.2.3/gems/sass-3.5.5/bin/scss:13:in `<top (required)>'
+/Users/theo/.rvm/gems/ruby-2.2.3/bin/scss:23:in `load'
+/Users/theo/.rvm/gems/ruby-2.2.3/bin/scss:23:in `<main>'
+/Users/theo/.rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:15:in `eval'
+/Users/theo/.rvm/gems/ruby-2.2.3/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ~bootstrap/scss/bootstrap.\A         on line 8 of app.scss\A \A 3: \A 4: // Variables\A 5: @import 'variables';\A 6: \A 7: // Bootstrap\A 8: @import '~bootstrap/scss/bootstrap';"; }
