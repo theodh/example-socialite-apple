@@ -45,6 +45,9 @@ ruby client.rb > apple_client.txt
 chown your_linux_user/your_linux_group /your_laravel_path/storage/apple/apple_client.txt
 
 ```
+
+Other solution to refresh your client secret, see comment [alinmiron](https://github.com/laravel/socialite/issues/369#issuecomment-539014190)
+
 ### Private email replay
 If the user is using his anonymous email-address, a standard email relay (mandrill, sendgrid) is not possible [at this moment](https://forums.developer.apple.com/thread/122270).
 
